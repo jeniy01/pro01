@@ -27,16 +27,9 @@
 		try{
 			conn = DriverManager.getConnection(url,user,pass);
 			sql = "select * from member where id=?";
-			//sql = "update member set pw=?, name=?, email=?, tel=?, addr=? where id=?";
 			try{
 				pstmt = conn.prepareStatement(sql);
 				pstmt.setString(1, wid);
-				//pstmt.setString(1, pw);
-				//pstmt.setString(2, name);
-				//pstmt.setString(3, email);
-				//pstmt.setString(4, tel);
-				//pstmt.setString(5, addr);
-				//pstmt.setString(6, id);
 				rs = pstmt.executeQuery();
 				if(rs.next()){
 					wpw = rs.getString("pw");
@@ -125,12 +118,12 @@
 								<tr>
 									<th><label for="id" class="lb">아이디</label></th>
 									<td>
-										<input type="text" name="id" id="id" class="indata"  required autofocus>
+										<input type="text" name="id" id="id" class="indata" value="<%=wid %>" readonly>
 									</td>
 								</tr>
 								<tr>
 									<th><label for="pw" class="lb">비밀번호</label></th>
-									<td><input type="password" name="pw" id="pw" class="indata" pattern="^[A-Za-z\d$!%*#?&]{4,8}$" required></td>
+									<td><input type="password" name="pw" id="pw" class="indata" pattern="^[A-Za-z\d$!%*#?&]{4,8}$" value="<%=wpw %>" required></td>
 								</tr>
 								<tr>
 									<th><label for="pw2" class="lb">비밀번호 확인</label></th>
@@ -138,11 +131,11 @@
 								</tr>
 								<tr>
 									<th><label for="name" class="lb">이름</label></th>
-									<td><input type="text" name="name" id="name" pattern="^[가-힣A-Za-z]{2,12}$" class="indata" required></td>
+									<td><input type="text" name="name" id="name" pattern="^[가-힣A-Za-z]{2,12}$" class="indata" value="<%=wname %>" required></td>
 								</tr>
 								<tr>
 									<th><label for="email" class="lb">이메일</label></th>
-									<td><input type="email" name="email" id="email" class="indata"></td>
+									<td><input type="email" name="email" id="email" value="<%=email %>" class="indata"></td>
 								</tr>
 								<tr>
 									<th><label for="tel" class="lb">전화번호</label></th>
@@ -150,13 +143,12 @@
 								</tr>
 								<tr>
 									<th><label for="email" class="lb">주소</label></th>
-									<td><input type="text" name="addr" id="addr" class="indata"></td>
+									<td><input type="text" name="addr" id="addr" value="<%=addr %>" class="indata"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
 										<input type="submit" value="회원정보수정" class="btn btn-primary"> &nbsp; &nbsp; &nbsp; &nbsp;
-										<a href="mypage.jsp?"></a>
-										<input type="reset" value="취소" class="btn btn-cancle">
+										<a href="mypage.jsp?id=<%=wid %>" class="btn btn-primary">마이 페이지</a>
 									</td>
 								</tr>
 							</tbody>

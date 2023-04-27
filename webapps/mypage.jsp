@@ -141,7 +141,7 @@
 								<tr>
 									<td colspan="2">
 										<a href="member_mod.jsp?id=<%=wid %>" class="btn btn-primary">정보 수정</a> &nbsp; &nbsp; &nbsp; &nbsp;
-										<a href="member_mod.jsp?id=<%=wid %>" class="btn btn-cancle">회원 탈퇴</a>
+										<a href="member_del.jsp?id=<%=wid %>" class="btn btn-cancle">회원 탈퇴</a>
 									</td>
 								</tr>
 							</tbody>
