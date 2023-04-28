@@ -50,9 +50,9 @@
 				} else {
 				//현재 존재하지 않는 아이디로서 사용가능한 아이디
 %>
-					<h3>사용이 가능한 아이디 입니다.</h3>
+					<h3>사용 가능한 아이디 입니다.</h3>
 					<input type="hidden" id="ps" name="ps" value="yes">
-					<input type="hidden" id="msg" name="msg" value="사용이 가능한 아이디 입니다.">
+					<input type="hidden" id="msg" name="msg" value="사용 가능한 아이디 입니다.">
 <% 				} %>
 					<button type="button" onclick="closing()">닫기</button>
 					<script>

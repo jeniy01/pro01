@@ -15,11 +15,11 @@
 		Class.forName(driver);
 		try{
 			conn = DriverManager.getConnection(url,user,pass);
-			//sql = "select board.bid as bid, board.title as title, board.resdate as resdate, member.name as name from board, member where board.author=member.id";
+			sql = "select board.bid as bid, board.title as title, board.resdate as resdate, member.name as name from board, member where board.author=member.id";
 			//sql = "select a.bid as bid, a.title as title, a.resdate as resdate, b.name as name from board a inner join member b on a.author=b.id";
 			//sql = "select bid, title, content, (select name from member where id=board.author) as name, resdate from board";
 			//sql = "select bid, title, content, resdate, name from (select * from member, board where author=id) as data";
-			sql = "select bid, title, content, resdate, member.name from board, member where author in (select id from member)";
+			//sql = "select bid, title, content, resdate, member.name from board, member where author in (select id from member)";
 			try{
 				pstmt = conn.prepareStatement(sql);
 				rs = pstmt.executeQuery();

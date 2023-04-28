@@ -74,14 +74,14 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/sub4.jsp">고객지원</a>
+                            <li><a href="<%=path1 %>/board/sub4.jsp">고객지원</a>
                                 <div class="sub item4">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/sub4.jsp#page1">고객의소리</a></li>
-                                        <li><a href="<%=path1 %>/sub4.jsp#page2">FAQ</a></li>
-                                        <li><a href="<%=path1 %>/sub4.jsp#page3">납품대금지급조회</a></li>
-                                        <li><a href="<%=path1 %>/sub4.jsp#page4">공지사항</a></li>
-                                        <li><a href="<%=path1 %>/sub4.jsp#page5">사업문의</a></li>
+                                        <li><a href="<%=path1 %>/board/sub4.jsp#page1">고객의소리</a></li>
+                                        <li><a href="<%=path1 %>/board/sub4.jsp#page2">FAQ</a></li>
+                                        <li><a href="<%=path1 %>/board/sub4.jsp#page3">납품대금지급조회</a></li>
+                                        <li><a href="<%=path1 %>/board/sub4.jsp#page4">공지사항</a></li>
+                                        <li><a href="<%=path1 %>/board/sub4.jsp#page5">사업문의</a></li>
                                     </ul>
                                 </div>
                             </li>
