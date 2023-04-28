@@ -2,9 +2,10 @@
     pageEncoding="UTF-8"%>
 <%
 	String id = "";
-
+	String name = "";
 	if(session.getAttribute("id")!=null) {
 		id = (String) session.getAttribute("id");
+		name = (String) session.getAttribute("name");
 	}
 	String path1 = request.getContextPath();
 %>
@@ -42,35 +43,35 @@
                     </a>
                     <nav class="gnb">
                         <ul class="gnb_fr">
-                            <li><a href="<%=path1 %>/sub1.jsp">회사소개</a>
+                            <li><a href="<%=path1 %>/board/sub1.jsp">회사소개</a>
                                 <div class="sub item1">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/sub1.jsp#page1">회사소개</a></li>
-                                        <li><a href="<%=path1 %>/sub1.jsp#page2">투자정보</a></li>
-                                        <li><a href="<%=path1 %>/sub1.jsp#page3">인재채용</a></li>
-                                        <li><a href="<%=path1 %>/sub1.jsp#page4">PR</a></li>
+                                        <li><a href="<%=path1 %>/board/sub1.jsp#page1">회사소개</a></li>
+                                        <li><a href="<%=path1 %>/board/sub1.jsp#page2">투자정보</a></li>
+                                        <li><a href="<%=path1 %>/board/sub1.jsp#page3">인재채용</a></li>
+                                        <li><a href="<%=path1 %>/board/sub1.jsp#page4">보도자료</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/sub2.jsp">사업영역</a>
+                            <li><a href="<%=path1 %>/board/sub2.jsp">사업영역</a>
                                 <div class="sub item2">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/sub2.jsp#page1">택배</a></li>
-                                        <li><a href="<%=path1 %>/sub2.jsp#page2">SCM</a></li>
-                                        <li><a href="<%=path1 %>/sub2.jsp#page3">글로벌</a></li>
-                                        <li><a href="<%=path1 %>/sub2.jsp#page4">컨설팅</a></li>
-                                        <li><a href="<%=path1 %>/sub2.jsp#page5">네트워크</a></li>
+                                        <li><a href="<%=path1 %>/board/sub2.jsp#page1">택배</a></li>
+                                        <li><a href="<%=path1 %>/board/sub2.jsp#page2">SCM</a></li>
+                                        <li><a href="<%=path1 %>/board/sub2.jsp#page3">글로벌</a></li>
+                                        <li><a href="<%=path1 %>/board/sub2.jsp#page4">컨설팅</a></li>
+                                        <li><a href="<%=path1 %>/board/sub2.jsp#page5">네트워크</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/sub3.jsp">ESG 경영</a>
+                            <li><a href="<%=path1 %>/board/sub3.jsp">ESG 경영</a>
                                 <div class="sub item3">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/sub3.jsp#page1">ESG 경영 체계</a></li>
-                                        <li><a href="<%=path1 %>/sub3.jsp#page2">인권경영</a></li>
-                                        <li><a href="<%=path1 %>/sub3.jsp#page3">사회공헌</a></li>
-                                        <li><a href="<%=path1 %>/sub3.jsp#page4">윤리경영</a></li>
-                                        <li><a href="<%=path1 %>/sub3.jsp#page5">ESG NEWS</a></li>
+                                        <li><a href="<%=path1 %>/board/sub3.jsp#page1">ESG 경영 체계</a></li>
+                                        <li><a href="<%=path1 %>/board/sub3.jsp#page2">인권경영</a></li>
+                                        <li><a href="<%=path1 %>/board/sub3.jsp#page3">사회공헌</a></li>
+                                        <li><a href="<%=path1 %>/board/sub3.jsp#page4">윤리경영</a></li>
+                                        <li><a href="<%=path1 %>/board/sub3.jsp#page5">ESG NEWS</a></li>
                                     </ul>
                                 </div>
                             </li>
