@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*" %> 
+<%@ page import="java.sql.*" %>
 <%
 	request.setCharacterEncoding("UTF-8");
 	response.setContentType("text/html; charset=utf-8");
 	
 	String id = request.getParameter("id");
+	String title = request.getParameter("title");
+	String content = request.getParameter("content");
 	
 	String driver = "org.postgresql.Driver";
 	String url = "jdbc:postgresql://localhost/pro1";
@@ -17,22 +19,25 @@
 	String sql = "";
 	String passId = "";
 	
-	try {
+	try{
 		Class.forName(driver);
-		try {
-			conn = DriverManager.getConnection(url, user, pass);
-			sql = "delete from member where id=?";
-			try {
+		try{
+			conn = DriverManager.getConnection(url,user,pass);
+			sql = "insert into board values(default,?,?,?,default)";
+			try{
 				pstmt = conn.prepareStatement(sql);
-				pstmt.setString(1, id);
+				pstmt.setString(1, title);
+				pstmt.setString(2, content);
+				pstmt.setString(3, id);	//author
 				int n = pstmt.executeUpdate();
 				if(n>0){
-					response.sendRedirect("logout.jsp");
+					response.sendRedirect("./board_manage.jsp");
 				} else {
-					response.sendRedirect("mypage.jsp?id="+id);
+					response.sendRedirect("./boardInsert.jsp");
 				}
 				pstmt.close();
 				conn.close();
+				
 			} catch(SQLException e){
 				System.out.println("SQL 전송 실패");
 			}

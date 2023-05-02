@@ -12,10 +12,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>고객지원</title>
+    <title>투자정보</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고객지원</title>
+    <title>투자정보</title>
     
     <meta name="subject" content="롯데글로벌로지스 벤치마킹 사이트">
     <meta name="keywords" content="롯데글로벌로지스, 택배, 운송, 서비스">
@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="<%=path %>/common.css">
     <link rel="stylesheet" href="<%=path %>/sub_common.css">
     <link rel="stylesheet" href="<%=path %>/sublayout.css">
+    
     <style>
     .vs { height:40vh; }
     .content { background-image: url("../images/top_career.jpg"); }

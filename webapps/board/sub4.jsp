@@ -71,7 +71,7 @@
     .col_fr { clear:both; width: 1280px; padding-top: 40px; }
     .col_fr .col_box { clear:both; padding-left:135px; width: 1280px; }
     .col_fr .col_box li.left { float:left; width: 1000px; height: 415px; background-color:#fff; color:rgb(187, 0, 0); border-radius:25px; box-sizing:border-box; padding:38px; }
-    .one_line { font-size:30px; line-height: 2; padding-bottom:18px; }
+    .one_line { font-size:25px; line-height: 2; padding-bottom:18px; }
     .gtxt { color:#222; font-size:22px; padding-left:28px; }
 
     /* #page4 .grid3 li { text-align: center; box-sizing:border-box; border:1px solid #999; height: 300px; }
@@ -188,7 +188,7 @@
                                 <span class="dot">2. 문의처<br></span>
                                 <span class="gtxt">
                                     - 우리은행 : 역전금융센터 (02-2259-0351)<br>
-                                    &nbsp; &nbsp; &nbsp; - 신한은행 : 광교대기업금융센터 (02-2010-2218)
+                                    &nbsp; - 신한은행 : 광교대기업금융센터 (02-2010-2218)
                                 </span>
                             </p>
                             <p class="one_line">

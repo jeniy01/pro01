@@ -171,7 +171,7 @@
             </div>
         </section>
         <section class="page" id="page3">
-            <h2 class="page_title" style="display:none">회사소개</h2>
+            <h2 class="page_title" style="display:none">IR</h2>
             <div class="page_wrap">
                 <div class="tit_box">
                     <h3 class="sub_title">IR</h3>

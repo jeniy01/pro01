@@ -77,10 +77,10 @@
 				System.out.println("SQL 전송 실패");
 			}
 		} catch(SQLException e){
-			System.out.println("데이터베이스 연결 실패~!");
+			System.out.println("데이터베이스 연결 실패");
 		}
 	} catch(ClassNotFoundException e){
-		System.out.println("드라이버 로딩 실패~!");
+		System.out.println("드라이버 로딩 실패");
 	}
 %>
 

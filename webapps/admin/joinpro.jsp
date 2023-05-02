@@ -7,9 +7,9 @@
 	
 	String id = request.getParameter("id");
 	String pw = request.getParameter("pw");
-	String email = request.getParameter("name");
-	String tel = request.getParameter("email");
-	String name = request.getParameter("tel");
+	String name = request.getParameter("name");
+	String email = request.getParameter("email");
+	String tel = request.getParameter("tel");
 	String addr = request.getParameter("addr");
 	
 	String driver = "org.postgresql.Driver";
@@ -47,9 +47,9 @@
 				System.out.println("SQL 전송 실패");
 			}
 		} catch(SQLException e){
-			System.out.println("데이터베이스 연결 실패~!");
+			System.out.println("데이터베이스 연결 실패");
 		}
 	} catch(ClassNotFoundException e){
-		System.out.println("드라이버 로딩 실패~!");
+		System.out.println("드라이버 로딩 실패");
 	}
 %>

@@ -7,9 +7,9 @@
 	
 	String id = request.getParameter("id");
 	String pw = request.getParameter("pw");
-	String email = request.getParameter("name");
-	String tel = request.getParameter("email");
-	String name = request.getParameter("tel");
+	String name = request.getParameter("name");
+	String email = request.getParameter("email");
+	String tel = request.getParameter("tel");
 	String addr = request.getParameter("addr");
 	
 	String driver = "org.postgresql.Driver";

@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="<%=path %>/common.css">
     <link rel="stylesheet" href="<%=path %>/sub_common.css">
     <link rel="stylesheet" href="<%=path %>/sublayout.css">
+    
     <style>
     .vs { height:40vh; }
     .content { background-image: url("../images/top_career.jpg"); }
@@ -54,7 +55,7 @@
     .btn-cancle { background: -moz-linear-gradient(top, #afafaf 0%, #797979 44%, #a7a7a7 100%); background: -webkit-linear-gradient(top, #afafaf 0%,#797979 44%,#a7a7a7 100%); background: linear-gradient(to bottom, #afafaf 0%,#797979 44%,#a7a7a7 100%); color:#fff; }
     .page_tit { text-align:center; font-size:32px; padding-top:80px; padding-bottom:30px; }
     .tb_wrap { clear:both; width:900px; margin:10px auto; border-top:2px solid #333; padding-top:15px; }
-   	.detail { display:block; text-align:center; max-width:120px; min-width:90px; padding:12px; font-size:24px; background-color: rgba(7, 93, 70, 0.9); color:#fff; border-radius:30px; margin:42px auto; }
+   	.detail { display:block; text-align:center; max-width:120px; min-width:90px; padding:12px; font-size:24px; background-color: rgba(80, 14, 14, 0.9); color:#fff; border-radius:30px; margin:42px auto; }
    	#page2, #page4 { background-color:rgba(240,240,240,0.8); }
    	.table.dataTable thead>tr>th { text-align:center; }
    	</style>
@@ -72,35 +73,35 @@
                 <h2 class="page_tit">전략</h2>
                 <article class="grid3" style="margin:10px auto;">
 
-	                <a href="" class="detail">더 보기</a>
+	                <a href="" class="detail">더보기</a>
 	            </article>
 			</section>
             <section class="page" id="page2">
                 <h2 class="page_tit">주요활동 및 성과</h2>
                 <article class="grid3" style="margin:10px auto;">
 	                	
-	                <a href="" class="detail">더 보기</a>
+	                <a href="" class="detail">더보기</a>
 	            </article>
 			</section>
             <section class="page" id="page3">
                 <h2 class="page_tit">윤리경영</h2>
 				<article class="grid3" style="width:1280px; margin:10px auto;">
 
-					<a href="" class="detail">더 보기</a>
+					<a href="" class="detail">더보기</a>
 				</article>
 			</section>
             <section class="page" id="page4">
                 <h2 class="page_tit">사회공헌</h2>
 				<article class="grid3" style="width:1280px; margin:10px auto;">
 
-					<a href="" class="detail">더 보기</a>
+					<a href="" class="detail">더보기</a>
 				</article>
 			</section>
             <section class="page" id="page5">
                 <h2 class="page_tit">보고서 및 정책</h2>
 				<article class="grid3" style="width:1280px; margin:10px auto;">
 
-					<a href="" class="detail">더 보기</a>
+					<a href="" class="detail">더보기</a>
 				</article>
 			</section>
 		</div>

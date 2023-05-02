@@ -42,34 +42,34 @@
                 <nav class="ft_link_fr right">
                     <dl class="ft_link item1">
                         <dt>회사소개</dt>
-                        <dd><a href="sub1.html#page1">회사소개</a></dd>
-                        <dd><a href="sub1.html#page2">투자정보</a></dd>
-                        <dd><a href="sub1.html#page3">인재채용</a></dd>
-                        <dd><a href="sub1.html#page4">PR</a></dd>
+                        <dd><a href="">회사소개</a></dd>
+                        <dd><a href="">투자정보</a></dd>
+                        <dd><a href="">인재채용</a></dd>
+                        <dd><a href="">PR</a></dd>
                     </dl>
                     <dl class="ft_link item2">
                         <dt>사업영역</dt>
-                        <dd><a href="sub2.html#page1">택배</a></dd>
-                        <dd><a href="sub2.html#page2">SCM</a></dd>
-                        <dd><a href="sub2.html#page3">글로벌</a></dd>
-                        <dd><a href="sub2.html#page4">컨설팅</a></dd>
-                        <dd><a href="sub2.html#page5">네트워크</a></dd>
+                        <dd><a href="">택배</a></dd>
+                        <dd><a href="">SCM</a></dd>
+                        <dd><a href="">글로벌</a></dd>
+                        <dd><a href="">컨설팅</a></dd>
+                        <dd><a href="">네트워크</a></dd>
                     </dl>
                     <dl class="ft_link item3">
                         <dt>ESG 경영</dt>
-                        <dd><a href="sub3.html#page1">ESG 경영 체계</a></dd>
-                        <dd><a href="sub3.html#page2">인권경영</a></dd>
-                        <dd><a href="sub3.html#page3">사회공헌</a></dd>
-                        <dd><a href="sub3.html#page4">윤리경영</a></dd>
-                        <dd><a href="sub3.html#page5">ESG NEWS</a></dd>
+                        <dd><a href="">ESG 경영 체계</a></dd>
+                        <dd><a href="">인권경영</a></dd>
+                        <dd><a href="">사회공헌</a></dd>
+                        <dd><a href="">윤리경영</a></dd>
+                        <dd><a href="">ESG NEWS</a></dd>
                     </dl>
                     <dl class="ft_link item4">
                         <dt>고객지원</dt>
-                        <dd><a href="sub4.html#page1">고객의소리</a></dd>
-                        <dd><a href="sub4.html#page2">FAQ</a></dd>
-                        <dd><a href="sub4.html#page3">납품대금지급조회</a></dd>
-                        <dd><a href="sub4.html#page4">공지사항</a></dd>
-                        <dd><a href="sub4.html#page5">사업문의</a></dd>
+                        <dd><a href="">고객의소리</a></dd>
+                        <dd><a href="">FAQ</a></dd>
+                        <dd><a href="">납품대금지급조회</a></dd>
+                        <dd><a href="">공지사항</a></dd>
+                        <dd><a href="">사업문의</a></dd>
                     </dl>
                 </nav>
             </div>
