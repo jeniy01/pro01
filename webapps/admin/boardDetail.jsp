@@ -127,12 +127,12 @@
 %>
 						<tr>
 							<td colspan="2">
-								<a href="<%=path %>/admin/board_manage.jsp" class="btn btn-primary">글 목록</a> &nbsp; &nbsp; &nbsp;
+								<a href="board_manage.jsp" class="btn btn-primary">글 목록</a> &nbsp; &nbsp; &nbsp;
 <%
 							if(pid.equals(sub4Id) || pid.equals("admin")){
 %>
-								<a href="<%=path %>/admin/boardUpdate.jsp?bid=<%=bid %>" class="btn btn-cancle">글 수정</a>								
-								<a href="<%=path %>/admin/board_del.jsp?bid=<%=bid %>" class="btn btn-primary">삭제</a>
+								<a href="boardUpdate.jsp?bid=<%=bid %>" class="btn btn-cancle">글 수정</a>								
+								<a href="board_del.jsp?bid=<%=bid %>" class="btn btn-primary">삭제</a>
 <%
 							}
 %>							

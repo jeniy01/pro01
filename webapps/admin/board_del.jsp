@@ -1,13 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*" %> 
-<%
-	String pid = "";
-	if(session.getAttribute("id")!=null){
-		pid = (String) session.getAttribute("id");
-	}
-	String path = request.getContextPath();
-%>
+<%@ page import="java.sql.*" %>
 <%
 	request.setCharacterEncoding("UTF-8");
 	response.setContentType("text/html; charset=utf-8");
@@ -28,7 +21,7 @@
 		Class.forName(driver);
 		try {
 			conn = DriverManager.getConnection(url, user, pass);
-			sql = "delete from board where title=?";
+			sql = "delete from board where bid=?";
 			try {
 				pstmt = conn.prepareStatement(sql);
 				pstmt.setInt(1, bid);

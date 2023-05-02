@@ -33,9 +33,9 @@
 				pstmt.setInt(4, bid);
 				int n = pstmt.executeUpdate();
 				if(n>0){
-					response.sendRedirect("./board_manage.jsp");
+					response.sendRedirect("board_manage.jsp");
 				} else {
-					response.sendRedirect("./boardUpdate.jsp?bid="+bid);
+					response.sendRedirect("boardUpdate.jsp?bid="+bid);
 				}
 				pstmt.close();
 				conn.close();
