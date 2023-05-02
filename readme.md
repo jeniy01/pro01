@@ -16,7 +16,7 @@ dbms : postgresql
 ## 프로젝트 설계 - 테이블ERD
 ![DB ERD](./erd.png "DB ERD") 
 
-## 프로젝트 설계 - 기능구현
+## 프로젝트 설계 - 기능구현 설명
 -회원 기능
 1. 회원가입
 약관페이지(agreement.jsp) -> 회원가입폼(join.jsp) -> 아이디 중복확인(idCheck.jsp) -> 회원가입 처리(joinpro.jsp) -> 메인페이지(index.jsp)
@@ -53,6 +53,19 @@ dbms : postgresql
 7. 게시글 삭제
 관리자로 로그인 후 관리자 클릭하여 관리자 페이지(index.jsp) -> 게시판 관리 누르거나 게시판 현황에서 더보기 눌러서 게시판 관리 페이지(board_manage.jsp) -> 글 삭제 처리(board_del.jsp) -> 게시판 관리 페이지(board_manage.jsp)
 
+## 프로젝트 설계 - 기능구현
+![메인페이지](./movie.png "메인페이지 영상")
+![메인페이지](./main1.png "메인페이지 첫 번째")
+![메인페이지](./main2.png "메인페이지 두 번째")
+![메인페이지](./main3.png "메인페이지 세 번째")
+![메인페이지](./main4.png "메인페이지 네 번째")
+![메인페이지](./main5.png "메인페이지 다섯 번째")
+![메인페이지](./footer.png "메인페이지 푸터")
+![로그인페이지](./login.png "로그인 페이지")
+![회원약관 페이지](./agreement.png "회원약관 페이지")
+![회원가입 페이지](./join.png "회원가입 페이지")
+![공지사항 페이지](./notice.png "공지사항 페이지")
+![공지사항 상세페이지](./noticeplus.png "공지사항 상세 페이지")
 
 <!--
 ![개념적 설계](./img/database/pro01_01.png "개념적 설계")
