@@ -112,11 +112,11 @@
 								<td><%=kid %></td>
 								<td><%=rs.getString("author") %></td>
 								<td>
-									<a href='<%=path %>/admin/boardDetail.jsp?id=<%=kid %>'><%=rs.getString("title") %></a>
+									<a href='<%=path %>/board/boardDetail.jsp?id=<%=kid %>'><%=rs.getString("title") %></a>
 								</td>
 								<td><%=rs.getString("resdate") %>
 									<% if(!kid.equals("admin")) { %>
-									<a href='<%=path %>/admin/board_del.jsp?id=<%=kid %>' class="btn btn-primary">글 삭제</a>
+									<a href='<%=path %>/board/boardDel.jsp?id=<%=kid %>' class="btn btn-primary">글 삭제</a>
 									<% } %>
 								</td>
 							</tr>

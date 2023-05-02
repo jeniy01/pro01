@@ -2,6 +2,13 @@
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %> 
 <%
+	String pid = "";
+	if(session.getAttribute("id")!=null){
+		pid = (String) session.getAttribute("id");
+	}
+	String path = request.getContextPath();
+%>
+<%
 	request.setCharacterEncoding("UTF-8");
 	response.setContentType("text/html; charset=utf-8");
 
