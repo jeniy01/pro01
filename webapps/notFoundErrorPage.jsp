@@ -42,8 +42,8 @@
 	.lb { display:block;  font-size:20px; }
 	.indata { display:block; width:400px; height:24px; line-height:24px; padding:10px; }
 	.btn { display:inline-block; outline:none; border:none; border-radius:8px; margin:16px; text-align: center; padding:10px 20px;  cursor:pointer; }
-	.btn-primary { background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); background: linear-gradient(to bottom, #00b7ea 0%,#009ec3 100%); color:#fff; }
-	.btn-cancle { background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); color:#fff; }
+	.btn-primary { background: -moz-linear-gradient(top, #ca4747 0%, #c73333 100%); background: -webkit-linear-gradient(top, #ca4747 0%,#c73333 100%); background: linear-gradient(to bottom, #ca4747 0%,#c73333 100%); color:#fff; }
+    .btn-cancle { background: -moz-linear-gradient(top, #afafaf 0%, #797979 44%, #a7a7a7 100%); background: -webkit-linear-gradient(top, #afafaf 0%,#797979 44%,#a7a7a7 100%); background: linear-gradient(to bottom, #afafaf 0%,#797979 44%,#a7a7a7 100%); color:#fff; }
 	.page_tit { text-align:center; font-size:32px; }
 	.title { text-align:center; }
 	#tb1, .msg { width:600px; margin:0 auto; text-align:center; }
