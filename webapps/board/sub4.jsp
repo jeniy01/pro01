@@ -39,6 +39,9 @@
     <link rel="stylesheet" href="<%=path %>/common.css">
     <link rel="stylesheet" href="<%=path %>/sub_common.css">
     <link rel="stylesheet" href="<%=path %>/sublayout.css">
+    <script src="<%=path %>/jquery-1.10.1.min.js"></script>
+    <script src="<%=path %>/datatables.min.js"></script>
+    <link rel="stylesheet" href="<%=path %>/datatables.min.css">
     <style>
     /* .vs { height:40vh; } */
     .content { background-image: url("../images/img_customer_visual.jpg"); }
@@ -94,7 +97,13 @@
     .btn { display:inline-block; outline:none; border:none; border-radius:8px; margin:16px; text-align: center; padding:10px 20px;  cursor:pointer; }
     .btn-primary { background: -moz-linear-gradient(top, #ca4747 0%, #c73333 100%); background: -webkit-linear-gradient(top, #ca4747 0%,#c73333 100%); background: linear-gradient(to bottom, #ca4747 0%,#c73333 100%); color:#fff; }
     .btn-cancle { background: -moz-linear-gradient(top, #afafaf 0%, #797979 44%, #a7a7a7 100%); background: -webkit-linear-gradient(top, #afafaf 0%,#797979 44%,#a7a7a7 100%); background: linear-gradient(to bottom, #afafaf 0%,#797979 44%,#a7a7a7 100%); color:#fff; }
+    
     /* .page_tit { text-align:center; font-size:32px; padding-top:60px; } */
+    .tb_wrap { clear:both; width:900px; margin:10px auto; border-top:2px solid #333; padding-top:15px; }
+   	.detail { display:block; text-align:center; max-width:120px; min-width:90px; padding:12px; font-size:24px; background-color: rgba(7, 93, 70, 0.9);
+   	color:#fff; border-radius:30px; margin:42px auto; }
+   	#page2, #page4 { background-color:rgba(240,240,240,0.8); }
+   	.table.dataTable thead>tr>th { text-align:center; }
     </style>
 </head>
 <body>
