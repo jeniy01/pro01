@@ -1,5 +1,5 @@
 # 프로젝트
-https://jeniy01.github.io/web01/
+jeniy01.github.io/web1
 
 ## 프로젝트 개요
 통합개발환경 : eclipse luna
